@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background: url(../tshirt.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.work {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom,transparent ,rgba(0, 0, 0, .3),rgba(0, 0, 0, .3));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.work h4 {
+    color: #FFF;
+}
